@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body                {font-family: 'Roboto', sans-serif; margin:0;}
+
+.platzhalter10      {height: 10px; }
+.platzhalter20      {height: 20px; }
+.platzhalter30      {height: 30px; }
+.platzhalter40      {height: 40px; }
+.platzhalter50      {height: 50px; }
+
+#logo_bild          {display: flex; flex-direction: column; align-items: center;}
+#logo_bild a        {font-weight: 1000; font-size: 220%; text-decoration: none; color: black;}
+#nav ul             {display: flex; justify-content: center; list-style: none; padding:0;}
+#nav ul li          {padding-left: 20px;}
+#nav ul li a        {font-size: 150%; font-family: 'Anton', sans-serif; text-decoration: none; color: black;}
+#nav ul li:hover    {cursor: pointer; color: gray;}
+#slider             {background-image: url(https://www.dermbach.de/fileadmin/_processed_/6/f/csm_header-sub_20fd8ec866.jpg); width: 100%; height:150px;background-size: cover; background-position: bottom; }
+
+.ws_images          {left: 20%;}
+
+h2   {display: flex; flex-direction: column; align-items: center;font-weight: 1000; font-size: 25px; }
+
+#mitte p {display: flex; flex-direction: column; align-items: center;font-weight: 1000; font-size: 25px;}
+#unten {background-color: gray; display: flex; flex-direction: column; align-items: center; height: 200px; }
+#unten p {font-weight: 800; font-size: 30px; text-decoration: none; color: white;}
+#unten a {font-weight: 500; font-size: 25px; text-decoration: none; color: white;}
+
+#Karte {display: flex; flex-direction: column; align-items: center;padding:50px;}
+
+#mittenews p {display: flex; flex-direction: column; align-items: center;font-weight: 500; font-size: 20px;}
+#mittebus p {display: flex; flex-direction: column; align-items: center;font-weight: 500; font-size: 20px;}
+#mittesehen p {display: flex; flex-direction: column; align-items: center;font-weight: 500; font-size: 20px;}
+#mittepolitik p {display: flex; flex-direction: column; align-items: center;font-weight: 500; font-size: 20px;}
+#mittevideos p {display: flex; flex-direction: column; align-items: center;font-weight: 500; font-size: 20px;}
